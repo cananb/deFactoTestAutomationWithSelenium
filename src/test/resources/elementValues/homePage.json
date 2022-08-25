@@ -1,0 +1,8 @@
+[
+  {
+    "key": "categoryType",
+    "value": "//ul[@class='menu__primary setGenderCookieLoad']//a[@class='menu__super-link']",
+    "type": "xpath"
+  }
+
+]

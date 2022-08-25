@@ -1,0 +1,27 @@
+[
+  {
+    "key": "productNameAndModelInfoBasket",
+    "value": "div[class='shopping-product-card__info--title'] span",
+    "type": "css"
+  },
+  {
+    "key": "priceInfoBasket",
+    "value": "div[class='shopping-product-card__info--price'] div[class='shopping-product-card__info--price-new']",
+    "type": "css"
+  },
+  {
+    "key": "deleteBtn",
+    "value": "a[class='product-delete-item mr-2']",
+    "type": "css"
+  },
+  {
+    "key": "popUpDeleteBtn",
+    "value": "div[class='d-flex flex-column'] button[class='button button--border button--medium delete-button mt-3']",
+    "type": "css"
+  },
+  {
+    "key": "shoppingEmptyTitle",
+    "value": "div[class='shopping__empty--title']",
+    "type": "css"
+  }
+]

@@ -1,0 +1,1 @@
+var index = {"Tags":{"Belirlenen_Urunun_Sepete_Eklenmesi_ve_Sepetten_Silinmesi":["specs/defactoBuyProduct.html"]},"Specs":{"DEFACTO TEST CASE":["specs/defactoBuyProduct.html"]}};

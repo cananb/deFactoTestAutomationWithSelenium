@@ -1,0 +1,66 @@
+
+# Ana sayfaya gidilir.
+* "2" saniye beklenir.
+
+# Ana sayfanin yuklendigine dair kontroller yapilir
+* Url'in "https://www.defacto.com.tr/" icerdigi kontrol edilir.
+* Sayfa yuklenmesi kontrol edilir.
+
+# Ana sayfa icinde bulunan ust tabdan <categoryType> kategorisinin uzerine gelinir
+* "categoryType" elementlerinden <categoryType> degerini iceren elementi uzerine gelinir.
+* "2" saniye beklenir.
+
+# Acilan alandan solda bulunan hamburger menu icersinde Pantolon kategorisi secilir ve kategorideki urun sayisi kontrol edilir.
+* "kadinMenuPantolon" elementine tiklanir.
+* "2" saniye beklenir.
+* "urunSayisi" degerinin "1" degerine esit olup olmadigi kontrol edilir.
+
+# Kategoriye ait sayfada solda bulunan filtreleme alaninda Beden <sizeType> secilir.
+* "byCategoryFilter" elementinde bulunan "bySizeType" elementlerinden <sizeType> degerini tasiyan elemente tikla
+
+# Yuklenen urun listesinden rastgele bir urune tiklanir ve urun detay sayfasina gidilir.
+* "3" saniye beklenir.
+* "catalogProductsList" elementinin icerdigi rastgele bir elemente tiklanir.
+* "5" saniye beklenir.
+
+# Urun detay sayfasinin yuklendigine dair kontroller yapilir.
+* Sayfa yuklenmesi kontrol edilir.
+
+# Urun detay sayfasindan rastgele bir urun secilir.
+*  Sayfayi asagi kaydir
+* "mixAndMatchBtn" elementini bulana kadar sayfayi kaydir
+* "2" saniye beklenir.
+* "productDetailCatalogList" elementinin icerdigi rastgele bir elemente tiklanir.
+* "3" saniye beklenir.
+
+# Sepete Ekle butonuna tiklanir.
+* "randomSizeList" elementinin icerdigi rastgele bir size elementine tiklanir.
+* "2" saniye beklenir.
+* Urun "productNameAndModelInfo" ve fiyat bilgileri "priceInfo" map listesine eklenir.
+* "2" saniye beklenir.
+
+# Ekranin sag ust alaninda yer alan Sepetim butonuna tiklanir.
+* "5" saniye beklenir.
+* "basketBtn" elementine tiklanir.
+* "2" saniye beklenir.
+
+# Acilan Sepet Ozet menusunden Sepete Git butonuna tiklanir.
+* "goToBasketPageBtn" elementine tiklanir.
+* "3" saniye beklenir.
+
+# Sepetim sayfasinin yuklendigine dair kontroller yapilir.
+* Url'in "https://www.defacto.com.tr/shopping" icerdigi kontrol edilir.
+* Sayfa yuklenmesi kontrol edilir.
+
+# Sepete eklenen urun ile sepetteki urunun ayni olduguna dair kontroller yapilir.
+* "productNameAndModelInfoBasket" ve "priceInfoBasket" bilgileri map listesine eklenir ve listedeki diger degerler ile karsilastirilir.
+* "2" saniye beklenir.
+
+# Sepetim sayfasinde bulunan Sil butonu ile urun sepetten silinir.
+* "deleteBtn" elementine tiklanir.
+* "2" saniye beklenir.
+* "popUpDeleteBtn" elementine tiklanir.
+
+# Sepetin bos oldugu <basketEmptyCheck> uyarisi ile kontrol edilir.
+* "shoppingEmptyTitle" elementinin textinin <basketEmptyCheck> degerini icerdigi kontrol edilir.
+

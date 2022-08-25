@@ -1,0 +1,22 @@
+[
+  {
+    "key": "urunSayisi",
+    "value": "div[class='catalog__meta--product-count'] span",
+    "type": "css"
+  },
+  {
+    "key": "bySizeType",
+    "value": "//*[@id='catalog-filter__nav']/ul/li[2]/ul/li[2]/ul/li[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "byCategoryFilter",
+    "value": "//*[@id='catalog-filter__nav']/ul/li[2]/div",
+    "type": "xpath"
+  },
+  {
+    "key": "catalogProductsList",
+    "value": "div[class='image-box'] a[data-id]",
+    "type": "css"
+  }
+]

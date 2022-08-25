@@ -1,0 +1,42 @@
+[
+  {
+    "key": "productDetailCatalogList",
+    "value": "a[class='image-box'] img[class='lazy swiper-lazy swiper-lazy-loaded']",
+    "type": "css"
+  },
+  {
+    "key": "randomSizeList",
+    "value": "div[class='product-size-selector__buttons d-flex flex-wrap'] button",
+    "type": "css"
+  },
+  {
+    "key": "basketAddBtn",
+    "value": "div[class='product-card__action'] span",
+    "type": "css"
+  },
+  {
+    "key": "basketBtn",
+    "value": "div[class='header__section-cart']",
+    "type": "css"
+  },
+  {
+    "key": "mixAndMatchBtn",
+    "value": "button[class='button button--fluid mix-and-match__button']",
+    "type": "css"
+  },
+  {
+    "key": "goToBasketPageBtn",
+    "value": "button[class='button button--fluid button--border fly-cart__go-to-cart--button']",
+    "type": "css"
+  },
+  {
+    "key": "productNameAndModelInfo",
+    "value": "div[class='product-card__details__left'] h1[class='product-card__name']",
+    "type": "css"
+  },
+  {
+    "key": "priceInfo",
+    "value": "div[class='product-card__details__left'] div[class='product-card__price--new d-inline-flex align-items-baseline']",
+    "type": "css"
+  }
+]
